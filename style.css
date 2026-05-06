@@ -13,7 +13,91 @@
   --text-preset-2: 0.875rem;
 }
 body {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100vh;
+  padding: 0 1.5rem;
   font-family: "Inter", sans-serif;
+  color: white;
+  background-color: var(--gray-900);
+}
+
+.container {
+  background-color: var(--gray-800);
+  padding: var(--spacing-300);
+  border-radius: 0.75rem;
+}
+.avatar {
+  border-radius: 62.4rem;
+  height: 5.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  font-size: var(--text-preset-1);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.location {
+  font-size: var(--text-preset-2);
+  color: var(--green);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.description {
+  font-size: var(--text-preset-2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+.profile-info {
+  gap: var(--spacing-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-150);
+  margin-block-start: var(--spacing-200);
+  font-size: var(--text-preset-2);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.social-button {
+  display: block;
+  max-width: 100%;
+  padding: var(--spacing-150);
+  background-color: var(--gray-700);
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.social-button:hover {
+  background-color: var(--green);
+  cursor: pointer;
+  color: var(--gray-700);
+}
+
+.social-button:focus {
+  outline: 0.063rem solid white;
+  outline-offset: 0.063rem;
 }
 
 .attribution {
