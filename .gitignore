@@ -1,0 +1,15 @@
+# Design files
+#####################################################
+## Please do not remove lines 4-6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+*.xd
+
+README-template.md
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
