@@ -1,0 +1,26 @@
+:root {
+  --gray-900: #141414;
+  --gray-800: #1f1f1f;
+  --gray-700: #333333;
+  --green: #c4f82a;
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-500: 2.5rem;
+  --text-preset-1: 1.5rem;
+  --text-preset-2: 0.875rem;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-block-start: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
