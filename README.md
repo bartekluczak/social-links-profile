@@ -11,13 +11,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,8 +27,8 @@ Ensure that visitors can navigate the site using only the keyboard.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bartekluczak/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://sage-moxie-9858c6.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/bartekluczak/social-links-profile)
+- Live Site URL: [Add live site URL here](https://bartekluczaklinks.netlify.app)
 
 ## My process
 
